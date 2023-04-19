@@ -183,7 +183,11 @@
 	}
 
 	
-	
+	@media (max-width: 768px) {
+		.enlace-radio {
+		  font-size: 24px; /* tamaño de fuente para pantallas más pequeñas */
+		}
+	}
 /* Overlay */
 
 	@-moz-keyframes overlay {
@@ -692,7 +696,7 @@
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: 16pt;
 			}
 
 		}
